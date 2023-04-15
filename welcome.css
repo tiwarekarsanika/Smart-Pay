@@ -1,0 +1,42 @@
+body{
+    background-image: url("cfm.jpeg");
+}
+
+#wcpage{
+    background-color: rgba(248, 247, 247, 0.8);
+    margin-top: 170px;
+    margin-bottom: 68px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 100px;
+}
+
+#wcpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome{
+    background-color: #050303;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
